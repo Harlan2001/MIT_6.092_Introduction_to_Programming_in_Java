@@ -33,7 +33,7 @@ public class BouncingBox {
         
         // Move the center of the object each time we draw it
         x += xDirection;
-        y += yDirection;
+        y += this.yDirection;
 
         // If we have hit the edge and are moving in the wrong direction, reverse direction
         // We check the direction because if a box is placed near the wall, we would get "stuck"
